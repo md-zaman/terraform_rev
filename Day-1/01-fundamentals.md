@@ -16,22 +16,22 @@ IaC addressed these challenges by providing systematic and code-driven
     E.g., Terraform, AWS CloudFormation, Azure Resource Manager, Pulumi, 
     etc.\
 
-# Terraform \
-## Advantages: \
+# Terraform 
+## Advantages: 
 a. Multi-Cloud Support \
 b. Large Ecosystem \
 c. Declarative Syntax - specifies the desired and end-state of your 
-    infrastructure. Hence easier to understand and maintain.
+    infrastructure. Hence easier to understand and maintain.\
 d. State Management - Tracks the current state of your infrastructure. 
     Terraform understand the differences between the desired and actual states of your infrastructure, enabling it to make informed decisions 
-    when you apply.
+    when you apply.\
 e. Plan and Apply - You can plan and then apply. Prevents unexpected 
-    modifications.
-f. Community Support - Large and active user community.
+    modifications.\
+f. Community Support - Large and active user community.\
 g. Integartion with other tools - Tools, such as Docker, Kubernetes, 
-    Ansible, and Jenkins.
+    Ansible, and Jenkins.\
 h. HCL Language - Designed specifically for defining infrastructure. 
-    Human-readable and expressive.
+    Human-readable and expressive.\
 
 
 
