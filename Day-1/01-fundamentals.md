@@ -9,12 +9,12 @@ c. Documentation Heavy - Could become outdated quickly.\
 d. Limited Automation - Lacking robustness and flexibility to our present 
     IaC tools.\
 e. Slow Provisioning - Involved manual steps leading to delay in 
-    deliveries.\
+    deliveries.
 
 IaC addressed these challenges by providing systematic and code-driven 
     approach to infracture management.\
     E.g., Terraform, AWS CloudFormation, Azure Resource Manager, Pulumi, 
-    etc.\
+    etc.
 
 # Terraform 
 ## Advantages: 
