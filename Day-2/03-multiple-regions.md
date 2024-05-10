@@ -1,6 +1,6 @@
-Multiple Region Implementation in Terraform
+# Multiple Region Implementation in Terraform
 
-We can make use of **alias** keyword to implement multi region infrastructure setup in terraform.
+#### We can make use of **alias** keyword to implement multi region infrastructure setup in terraform.
 
 ```
 provider "aws" {
