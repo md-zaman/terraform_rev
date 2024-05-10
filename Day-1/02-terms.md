@@ -7,4 +7,4 @@ Fundamental Terms
     easily. \
 4. Configuration File - Often with .tf file extension. Specifies 
     providers, resources, variables, and other settings. Usually named 
-    > main.tf.
+    **main.tf**.
