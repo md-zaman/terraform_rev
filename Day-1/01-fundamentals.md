@@ -2,7 +2,7 @@
 
 **In the beginning (before IaC). The process was to:**
 
-a. Manually Configure Servers - Could lead to inconsistencies and errors.
+a. Manually Configure Servers - Could lead to inconsistencies and errors.\
 b. Lack of version control - Diffcult to track and revert to the previous 
     state.\
 c. Documentation Heavy - Could become outdated quickly.\
