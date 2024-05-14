@@ -2,7 +2,8 @@
 
 In Terraform, ```.tfvars``` files are used to set specific values for input variables.
 
-They allow separate configuration values for your Terraform code, making it easier to manage different environments (e.g., dev, staging, prod)
+They allow separate configuration values for your Terraform code, making 
+it easier to manage different environments (e.g., dev, staging, prod) 
 or
 to store sensitive information without exposing it in your code.
 
