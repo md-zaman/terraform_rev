@@ -20,4 +20,6 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 }
 ```
+In this example, the ```count``` attribute of the ```aws_instance``` resource uses a conditional expression. If the ```create_instance``` variable is ```true```, it creates one EC2 instance. If ```create_instance``` is ```false```, it creates zero instances, effectively skipping resource creation.
+
 
