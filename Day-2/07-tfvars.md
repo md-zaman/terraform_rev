@@ -30,7 +30,7 @@ Purpose:
 # Summary
 Here's how you typically use ````.tfvars```` files
 
-Define your input variables in your Terraform code (e.g., in a variables.tf file).
+Define your input variables in your Terraform code (e.g., in a ```variables.tf``` file).
 
 Create one or more ```.tfvars``` files, each containing specific values for those input variables.
 
