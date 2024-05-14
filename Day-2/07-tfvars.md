@@ -36,6 +36,8 @@ Create one or more ```.tfvars``` files, each containing specific values for thos
 
 When running Terraform commands (e.g., terraform apply, terraform plan), you can specify which ````.tfvars```` file(s) to use with the -var-file option:
 
-`terraform apply -var-file=dev.tfvars`
+````console
+terraform apply -var-file=dev.tfvars
+````
 
 By using ```.tfvars``` files, you can keep your Terraform code more generic and flexible while tailoring configurations to different scenarios and environments.
