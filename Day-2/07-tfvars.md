@@ -1,4 +1,4 @@
-Terraform tfvars
+# Terraform tfvars
 
 In Terraform, .tfvars files are used to set specific values for input variables.
 
@@ -26,7 +26,7 @@ Purpose:
     This avoids conflicts in the codebase when multiple people are 
     working of the same project.
 
-Summary
+# Summary
 Here's how you typically use .tfvars files
 
 Define your input variables in your Terraform code (e.g., in a variables.tf file).
