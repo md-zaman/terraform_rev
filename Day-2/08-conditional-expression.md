@@ -3,7 +3,7 @@ Used to define conditional logic within your configuration. Allows you to make d
 are typically used to control whether resources are created or configured based on the evaluation of a condition.
 
 The syntax for a conditional expression in Terraform is:
-```console
+```terraform
 condition ? true_val : false_val
 ```
 - condition is an expression that evaluates to either ```true``` or ```false```.
@@ -12,7 +12,7 @@ condition ? true_val : false_val
 
 Here are some common use case are examples of how to use conditional expression in Terraform:
 
-```python
+```terraform
 resource "aws_instance" "example" {
   count = var.create_instance ? 1 : 0
 
