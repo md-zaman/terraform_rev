@@ -1,4 +1,4 @@
-Built-in Functions
+# Built-in Functions
 Terraform allows you to define and provision infrastructure resources in a declarative manner. It provides a wide range of built-in functions that you can use within your configuration files. 
 Commonly used built-in functions in Terraform:
 
