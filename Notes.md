@@ -20,3 +20,6 @@ Configure AWS for Terraform
     - displays the version of AWS CLI
     aws s3 ls
     - lists all the files and directories in s3
+
+*Publicaly available modules
+
