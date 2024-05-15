@@ -23,3 +23,7 @@ Configure AWS for Terraform
 
 *Publicaly available modules
 
+terraform show
+- reads the statefile. You don't have to open the statefile.
+
+
