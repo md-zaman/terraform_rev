@@ -96,8 +96,7 @@ By following these steps, you can securely store your Terraform state in S3 with
      }
    }
    ```
-
-```
+   ```
 
    Replace `"your-terraform-state-bucket"` and `"path/to/your/terraform.tfstate"` with your S3 bucket and desired state file path.
 
