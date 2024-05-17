@@ -26,4 +26,7 @@ Configure AWS for Terraform
 terraform show
 - reads the statefile. You don't have to open the statefile.
 
+tree
+- shows the tree model of your terraform project
+
 
