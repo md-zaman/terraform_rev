@@ -28,7 +28,7 @@ import {
 ```
 4. After the above main.tf file we will enter this command:
 ```ssh
-    terraform plan -generate-config-out=generated_resource.tf
-        - imports the entire id information as a terraform code and saves it in a file - "generated_resource.tf". This .tf file is also created by terraform.
+terraform plan -generate-config-out=generated_resource.tf
+    - imports the entire id information as a terraform code and saves it in a file - "generated_resource.tf". This .tf file is also created by terraform.
     
 ```
