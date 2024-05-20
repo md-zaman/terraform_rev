@@ -42,4 +42,4 @@ In this file if you don't need something, you can delete it but terraform will g
         - we have to mention the id also
 ```
 
-
+7. Now we will do terraformplan.
