@@ -11,7 +11,7 @@ Process:
 3. Write an import block and input the id. Like if you want to imprt an ec2 instance. The block will be:
 
 
-```terrform
+```terraform
 # Of course you have to write the provider block first
 provider "aws" {
     region = "us-east-1"
