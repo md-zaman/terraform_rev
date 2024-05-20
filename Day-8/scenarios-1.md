@@ -1,5 +1,10 @@
 There are two scenarios interviewer can ask:
 
+a. Terraform Migration: Importing existing infrastructure
+b. Drift Detection - Someone make some change directly to the resource from the console
+
+a. Terraform Migration: Importing existing infrastructure:
+
 There is an existing infrastructure on AWS and you have to update this in your machine:
 
 ```ssh
@@ -43,3 +48,18 @@ In this file if you don't need something, you can delete it but terraform will g
 ```
 
 7. Now we will do terraformplan.
+
+b. Drift Detection: Someone made some changes from the console
+
+1. Two Ways : 
+    a. terraform refresh
+        - updates the statefile
+        - might get deprecated in the future by terraform
+        - with a cron job
+    b. 
+
+To control it:
+    a. Strict IAM Policies
+    b. Audit logs - perform the automation
+        to know who performed
+        understad what has changed and send notifications
