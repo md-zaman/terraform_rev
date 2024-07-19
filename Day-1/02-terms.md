@@ -5,7 +5,7 @@
 2. **Resource** - Infrastructure component. E.g., S3, EC2 instance, DBs, 
     etc. 
 3. **Module** - Reusable and encapsulated unit of Terraform code. In 
-    simple terms it's a code block which can be sharedm, maintained and 
+    simple terms it's a code block which can be shared, maintained and 
     reused easily. 
 4. **Configuration File** - Often with .tf file extension. Specifies 
     providers, resources, variables, and other settings. Usually named 
@@ -13,8 +13,7 @@
 5. **Variable** - Placeholders for values that can be passed into your 
     configurations. Makes your code more flexible and reusable by allowing you to define values outside of your code and pass them in when you apply.
 6. **Output** - Used to display information or provide values to other 
-    parts 
-    of your infrastructure stack.
+    parts of your infrastructure stack.
 7. **State File** - Often named "terraform.tfstate" keeps a track of the 
     current state of the infrastructure. Crucial for Terraform to 
     understand what resources have been created and what changes need to 
