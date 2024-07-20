@@ -4,7 +4,7 @@
 
 Used to get a specific **version**
 
-```
+```hcl
 terraform {
   required_providers {
     aws = {
