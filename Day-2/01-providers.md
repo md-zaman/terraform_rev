@@ -30,7 +30,7 @@ Different ways to configure providers in terraform
 
 a. **In the Root Module** \
 b. **In the Child Module** \
-c. **In the required_providers block** \
+c. **In the required_providers block** 
 
 a. ***In the Root Module***: Most common way to configure providers. The provider configuration block is placed in the root module of the Terraform configuration. This makes the provider configuration available to all the resources in the configuration.
 E.g., 
