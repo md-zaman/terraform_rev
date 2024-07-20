@@ -24,17 +24,17 @@ Some examples of other providers:
     - google - for Google Cloud Platform \
     - kubernetes - for Kubernetes \
     - openstack - for OpenStack \
-    - vsphere - for VMware vSphere \
+    - vsphere - for VMware vSphere 
 
 Different ways to configure providers in terraform
 
-a. In the Root Module \
-b. In the Child Module \
-c. In the required_providers block \
+a. ***In the Root Module*** \
+b. **In the Child Module** \
+c. ***In the required_providers block*** \
 
-a. In the Root Module: Most common way to configure providers. The provider configuration block is placed in the root module of the Terraform configuration. This makes the provider configuration available to all the resources in the configuration.
+a. ***In the Root Module***: Most common way to configure providers. The provider configuration block is placed in the root module of the Terraform configuration. This makes the provider configuration available to all the resources in the configuration.
 E.g., 
-```
+```hcl
 provider "aws" {
   region = "us-east-1"
 }
@@ -45,11 +45,9 @@ resource "aws_instance" "example" {
 }
 ```
 
-b. In the Child Module
-
-You can also configure providers in a child module. This is useful if you want to reuse the same provider configuration in multiple resources.
+b. ***In the Child Module***: You can also configure providers in a child module. This is useful if you want to reuse the same provider configuration in multiple resources.
 E.g.,
-```
+```hcl
 module "aws_vpc" {
   source = "./aws_vpc"
   providers = {
@@ -64,11 +62,9 @@ resource "aws_instance" "example" {
 }
 ```
 
-c. In the required_providers block
-
-You can also configure providers in the required_providers block. This is useful if you want to make sure that a specific provider **version** is used.
+c. ***In the required_providers block***: You can also configure providers in the required_providers block. This is useful if you want to make sure that a specific provider **version** is used.
 E.g., 
-```
+```hcl
 terraform {
   required_providers {
     aws = {
