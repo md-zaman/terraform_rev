@@ -20,11 +20,11 @@ aws_instance wherein we have specified the AMI_ID and instance_type.
 When Terraform runs, it will first install the aws provider. Then, it will use the aws provider to create the virtual machine.
 
 Some examples of other providers:
-    - azurerm - for Azure
-    - google - for Google Cloud Platform
-    - kubernetes - for Kubernetes
-    - openstack - for OpenStack
-    - vsphere - for VMware vSphere
+    - azurerm - for Azure \
+    - google - for Google Cloud Platform \
+    - kubernetes - for Kubernetes \
+    - openstack - for OpenStack \
+    - vsphere - for VMware vSphere \
 
 Different ways to configure providers in terraform
 
