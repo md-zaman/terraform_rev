@@ -2,7 +2,7 @@
 
 #### We can make use of **alias** keyword to implement multi region infrastructure setup in terraform.
 
-```
+```hcl
 provider "aws" {
   alias = "us-east-1"
   region = "us-east-1"
